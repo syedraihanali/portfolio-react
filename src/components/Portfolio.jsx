@@ -69,10 +69,24 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={link}>Live</a>
+                <a
+              href={href}
+              className="flex justify-between items-center w-full text-white"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={code}>Code</a>
+                <a
+              href={code}
+              className="flex justify-between items-center w-full text-white"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </a>
                 </button>
               </div>
             </div>
