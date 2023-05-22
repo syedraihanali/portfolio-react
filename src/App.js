@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ReactGA from 'react-ga';
+import { Analytics } from '@vercel/analytics/react';
 
 
 const Tracking_ID = "G-HZE03TJXRY"
@@ -26,6 +27,7 @@ function App() {
       <Contact/>
       <SocialLinks/>
       <Footer/>
+      <Analytics/>
     </div>
   );
 }
