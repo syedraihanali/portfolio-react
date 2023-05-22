@@ -6,11 +6,15 @@ import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 
-function App() {
+function App({ Component, pageProps }) {
   return (
+    
     <div>
+      <Component {...pageProps} />
+      <Analytics />
       <NavBar/>
       <Home/>
       <About/>
