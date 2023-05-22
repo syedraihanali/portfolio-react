@@ -66,7 +66,8 @@ const Contact = () => {
 
         <div className=" flex justify-center items-center">
           <form
-            onSubmit={handleSubmit}
+            action="https://getform.io/f/6efa1d63-effb-4dcd-bc48-7366c633d9b6"
+            method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
