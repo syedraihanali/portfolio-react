@@ -17,32 +17,32 @@ const Portfolio = () => {
     {
       id: 2,
       src: reactParallax,
-      live:"",
-      code:""
+      live:"#",
+      code:"#"
     },
     {
       id: 3,
       src: navbar,
-      live:"",
-      code:""
+      live:"#",
+      code:"#"
     },
     {
       id: 4,
       src: reactSmooth,
-      live:"",
-      code:""
+      live:"#",
+      code:"#"
     },
     {
       id: 5,
       src: installNode,
-      live:"",
-      code:""
+      live:"#",
+      code:"#"
     },
     {
       id: 6,
       src: reactWeather,
-      live:"",
-      code:""
+      live:"#",
+      code:"#"
     },
   ];
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link, code }) => (
+          {portfolios.map(({ id, src, live, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -70,7 +70,7 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                 <a
-              href={href}
+              href={live}
               className="flex justify-between items-center w-full text-white"
               target="_blank"
               rel="noreferrer"
