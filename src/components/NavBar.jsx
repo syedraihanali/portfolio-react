@@ -1,8 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { Link } from "react-scroll";
+import ReactGA from 'react-ga';
 
 export const NavBar = () => {
+
+  useEffect (()=>{
+    ReactGA.pageview(window.location.pathname);
+  })
 
   const [nav, setNav] = useState(false);
 
