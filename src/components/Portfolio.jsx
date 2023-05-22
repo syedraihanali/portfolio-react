@@ -11,8 +11,8 @@ const Portfolio = () => {
     {
       id: 1,
       src: Movie,
-      live:"",
-      code:""
+      live:"https://movie-site-byraihan.vercel.app/",
+      code:"https://github.com/syedraihanali/simple-movie-site"
     },
     {
       id: 2,
@@ -69,10 +69,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={link}></a>
+                  <a href={link}>Live</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={code}></a>
+                  <a href={code}>Code</a>
                 </button>
               </div>
             </div>
