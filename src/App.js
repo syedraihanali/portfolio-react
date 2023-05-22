@@ -13,8 +13,7 @@ function App({ Component, pageProps }) {
   return (
     
     <div>
-      <Component {...pageProps} />
-      <Analytics />
+      
       <NavBar/>
       <Home/>
       <About/>
@@ -23,6 +22,8 @@ function App({ Component, pageProps }) {
       <Contact/>
       <SocialLinks/>
       <Footer/>
+      <Component {...pageProps} />
+      <Analytics />
     </div>
   );
 }
