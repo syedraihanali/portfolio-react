@@ -6,10 +6,9 @@ import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { Analytics } from '@vercel/analytics/react';
 
 
-function App({ Component, pageProps }) {
+function App() {
   return (
     
     <div>
@@ -22,8 +21,6 @@ function App({ Component, pageProps }) {
       <Contact/>
       <SocialLinks/>
       <Footer/>
-      <Component {...pageProps} />
-      <Analytics />
     </div>
   );
 }
