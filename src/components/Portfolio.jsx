@@ -1,7 +1,7 @@
 import React from "react";
 import Movie from "../assets/portfolio/movie-site.png";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import pricing from "../assets/portfolio/pricing-table.png";
 import blog from "../assets/portfolio/blog-site.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -22,27 +22,27 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: navbar,
-      live:"#",
-      code:"#"
+      src: pricing,
+      live:"https://pricing-table-react.vercel.app/",
+      code:"https://github.com/syedraihanali/Pricing-table-react"
     },
     {
       id: 4,
       src: reactSmooth,
-      live:"#",
-      code:"#"
+      live:"/",
+      code:"/"
     },
     {
       id: 5,
       src: installNode,
-      live:"#",
-      code:"#"
+      live:"/",
+      code:"/"
     },
     {
       id: 6,
       src: reactWeather,
-      live:"#",
-      code:"#"
+      live:"/",
+      code:"/"
     },
   ];
 
