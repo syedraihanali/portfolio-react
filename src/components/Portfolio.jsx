@@ -2,7 +2,7 @@ import React from "react";
 import Movie from "../assets/portfolio/movie-site.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import blog from "../assets/portfolio/blog-site.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -16,9 +16,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reactParallax,
-      live:"#",
-      code:"#"
+      src: blog,
+      live:"https://code-info.vercel.app",
+      code:"https://github.com/syedraihanali/code-info"
     },
     {
       id: 3,
